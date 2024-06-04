@@ -1,4 +1,13 @@
 <?php
+/*
+    Este archivo PHP gestiona el inicio de sesión de usuarios en una tienda en línea.
+    La funcionalidad incluye:
+    - Inicio de sesión de usuarios mediante una sesión de PHP.
+    - Verificación de credenciales (usuario y contraseña) contra una base de datos MySQL.
+    - Redirección a la página de productos si el usuario ya está autenticado.
+    - Mostrar alertas en caso de errores de autenticación.
+    - Carga de la interfaz de usuario para el formulario de inicio de sesión, con inclusión de estilos y scripts necesarios.
+*/
 session_start();
 if (!empty($_SESSION['active'])) {
     header('location: productos.php');

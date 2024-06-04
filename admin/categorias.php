@@ -1,4 +1,13 @@
 <?php
+/*
+    Este archivo PHP gestiona la página de administración de categorías en una tienda en línea.
+    La funcionalidad incluye:
+    - Conexión a una base de datos MySQL.
+    - Inserción de nuevas categorías en la base de datos mediante un formulario.
+    - Visualización de todas las categorías existentes en una tabla.
+    - Inclusión de una opción para eliminar categorías.
+    - Inclusión de la cabecera y el pie de página desde archivos externos.
+*/
 require_once "../config/conexion.php";
 if (isset($_POST)) {
     if (!empty($_POST)) {

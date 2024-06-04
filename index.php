@@ -1,7 +1,18 @@
-<?php require_once "config/conexion.php"; ?>
+<?php require_once "config/conexion.php"; 
+/*
+    Este archivo PHP implementa la interfaz de usuario para una tienda en línea llamada "MercaOnline".
+    La página incluye:
+    - Conexión a una base de datos MySQL para obtener categorías y productos.
+    - Una barra de navegación dinámica que muestra las categorías de productos.
+    - Un encabezado atractivo con el nombre de la tienda.
+    - Un botón flotante que muestra el carrito de compras con la cantidad de artículos.
+    - Una sección que muestra los productos con sus detalles, incluyendo nombre, descripción, precio, y una opción para agregar al carrito.
+    - Un pie de página sencillo.
+    - La integración de estilos CSS y scripts JS necesarios para el funcionamiento y la presentación de la página.
+*/
+?>
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />

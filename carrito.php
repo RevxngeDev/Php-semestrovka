@@ -1,5 +1,17 @@
 <?php require_once "config/conexion.php";
 require_once "config/config.php";
+/*
+    Este archivo PHP implementa la interfaz de usuario para el carrito de compras de una tienda en línea llamada "MercaOnline".
+    La página incluye:
+    - Conexión a una base de datos MySQL para gestionar la información del carrito y los productos.
+    - Un diseño responsivo utilizando Bootstrap y CSS personalizado.
+    - Una barra de navegación.
+    - Una sección de encabezado que muestra el nombre de la tienda y un mensaje.
+    - Una sección que muestra los productos agregados al carrito, con la cantidad, el precio y el total.
+    - Botones para vaciar el carrito, comprar los productos y pagar con PayPal.
+    - Scripts de JavaScript para gestionar el carrito de compras, incluyendo la recuperación de productos desde el almacenamiento local y la actualización del total a pagar.
+    - Integración con la API de PayPal para procesar pagos.
+*/
 ?>
 <!DOCTYPE html>
 <html lang="en">

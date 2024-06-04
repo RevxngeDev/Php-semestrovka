@@ -1,4 +1,13 @@
 <?php
+/*
+    Este archivo PHP maneja las solicitudes AJAX para buscar información sobre los productos en el carrito de compras.
+    La funcionalidad incluye:
+    - Conexión a una base de datos MySQL.
+    - Procesamiento de solicitudes POST para la acción 'buscar'.
+    - Recuperación de información de productos (ID, nombre y precio rebajado) desde la base de datos.
+    - Cálculo del total de los precios de los productos en el carrito.
+    - Envío de la información de los productos y el total como respuesta en formato JSON.
+*/
 require_once "config/conexion.php";
 if (isset($_POST)) {
     if ($_POST['action'] == 'buscar') {
